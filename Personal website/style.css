@@ -1,19 +1,57 @@
+.sky {
+    height: 100%;
+    margin-bottom: 30vh;
+}
+
+#imgsky {
+    border-bottom: 3px solid black;
+    max-width: 100%;
+}
+
+#ProkopisImage {
+    border-radius: 50%; border: solid black;
+}
+
 #name {
     color: rgba(0, 0, 0, 0.802);
     font-family: Libre Baskerville;
     font-weight: 700;
-    text-shadow: 3px 3px rgb(255, 255, 255);
+    text-shadow: 1.6px 1.6px rgba(0, 0, 0, 0.576);
 }
-#AboutMe { 
-    font-weight: 700;
-    color: rgb(210, 161, 89);
-    font-size: xxx-large;text-shadow: 3px 3px rgb(41, 35, 24);
-}
-.paragraph {
-    font-family: Inter;
-    font-weight: 700; 
-    text-shadow: 1px 1px rgb(255, 255, 255);
-}
+
 .creative {
     color: rgb(156, 140, 88);
+}
+
+.paragraph {
+    font-family: Libre Baskerville;
+    font-weight: 700; 
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.48);
+}
+
+.iconsInResume {
+    border-radius: 20%; 
+    padding: 10px; 
+}
+
+.paragraphInResume {
+    font-family: Libre Baskerville;
+    font-weight: 300; 
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.48);
+}
+
+.blackATag {
+    color: black;
+}
+
+#aboutMe { 
+    font-weight: 700;
+    color: rgb(210, 161, 89);
+    font-size: xxx-large;
+    text-shadow: 3px 3px rgb(41, 35, 24);
+}
+
+.footerText {
+    text-align: center; 
+    color: rgba(36, 36, 36, 0.556);
 }
